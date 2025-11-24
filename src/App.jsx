@@ -146,7 +146,8 @@ const CountingGame = ({ onBack, onHome }) => {
       </div>
       
       <div className="flex flex-col items-center transform -translate-y-16">
-        <span className="text-[20rem] font-bold text-black leading-none">
+        {/* Fixed: Used inline style for massive font size instead of Tailwind arbitrary value */}
+        <span className="font-bold text-black leading-none" style={{ fontSize: '20rem' }}>
           {number}
         </span>
         <span className="text-8xl font-bold text-gray-500 mt-4">
