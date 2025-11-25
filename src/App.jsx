@@ -8,10 +8,10 @@ import {
 // --- Sound Utilities ---
 // We use the paths directly. In a real build, ensure these files are in your /public folder.
 const sounds = {
-  click: '/public/beep-21.mp3', 
+  click: 'public/beep-21.mp3', 
   // Updated per request
-  correct: '/public/button-41.mp3', 
-  wrong: '/public/button-44.mp3'
+  correct: 'public/button-41.mp3', 
+  wrong: 'public/button-44.mp3'
 };
 
 const playSound = (type) => {
