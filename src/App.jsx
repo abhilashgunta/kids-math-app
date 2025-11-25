@@ -14,7 +14,6 @@ const sounds = {
   wrong: '/button-44.mp3'
 };
 
-
 const playSound = (type) => {
   try {
     const audio = new Audio(sounds[type]);
@@ -72,9 +71,12 @@ const App = () => {
           onBack={() => navigateTo('home')} 
           items={[
             { id: 'counting', label: 'Count 1-20', icon: <span className="text-6xl font-bold">123</span>, color: 'bg-yellow-400 text-yellow-900' },
-            { id: 'counting_voice', label: 'Count 1-20', icon: <Volume2 size={64} strokeWidth={2} />, color: 'bg-orange-400 text-orange-900' },
-            { id: 'skip_counting_2', label: 'Skip Count by 2', icon: <span className="text-4xl font-bold text-center">2, 4...</span>, color: 'bg-cyan-400 text-cyan-900' },
-            { id: 'skip_counting_10', label: 'Skip Count by 10', icon: <span className="text-4xl font-bold text-center">10, 20...</span>, color: 'bg-teal-400 text-teal-900' }
+            // Changed Orange -> Indigo
+            { id: 'counting_voice', label: 'Count 1-20', icon: <Volume2 size={64} strokeWidth={2} />, color: 'bg-indigo-400 text-indigo-900' },
+            // Changed Cyan -> Blue
+            { id: 'skip_counting_2', label: 'Skip Count by 2', icon: <span className="text-4xl font-bold text-center">2, 4...</span>, color: 'bg-blue-400 text-blue-900' },
+            // Changed Teal -> Green
+            { id: 'skip_counting_10', label: 'Skip Count by 10', icon: <span className="text-4xl font-bold text-center">10, 20...</span>, color: 'bg-green-400 text-green-900' }
           ]}
           onSelect={(id) => navigateTo(id)}
         />
@@ -118,7 +120,7 @@ const App = () => {
         <SkipCountingGame 
           step={2} 
           title="Skip Counting by 2" 
-          themeColor="cyan"
+          themeColor="blue" 
           onBack={() => navigateTo('cat_numbers')} 
           onHome={() => navigateTo('home')} 
         />
@@ -127,7 +129,7 @@ const App = () => {
         <SkipCountingGame 
           step={10} 
           title="Skip Counting by 10" 
-          themeColor="teal"
+          themeColor="green" 
           onBack={() => navigateTo('cat_numbers')} 
           onHome={() => navigateTo('home')} 
         />
@@ -393,14 +395,15 @@ const CountingGameVoice = ({ onBack, onHome }) => {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-orange-50 w-full relative pb-16">
+    // Changed Orange -> Indigo
+    <div className="flex flex-col items-center justify-center min-h-screen bg-indigo-50 w-full relative pb-16">
       <NavButtons onBack={onBack} onHome={onHome} />
       <div className="absolute top-4 right-4">
         <Logo />
       </div>
       
       <div className="flex flex-col items-center transform -translate-y-16">
-        <span className="font-bold text-orange-600 leading-none" style={{ fontSize: '15rem' }}>
+        <span className="font-bold text-indigo-600 leading-none" style={{ fontSize: '15rem' }}>
           {number}
         </span>
         <span className="text-6xl font-bold text-gray-500 mt-4">
@@ -422,7 +425,7 @@ const CountingGameVoice = ({ onBack, onHome }) => {
 };
 
 // --- Generic Skip Counting Game ---
-const SkipCountingGame = ({ onBack, onHome, step = 2, title, themeColor = "cyan" }) => {
+const SkipCountingGame = ({ onBack, onHome, step = 2, title, themeColor = "blue" }) => {
   const [filledCount, setFilledCount] = useState(0);
   const [isFinished, setIsFinished] = useState(false);
   const [isPaused, setIsPaused] = useState(false);
@@ -430,23 +433,23 @@ const SkipCountingGame = ({ onBack, onHome, step = 2, title, themeColor = "cyan"
   // Numbers to fill (10 cells for both games)
   const totalCells = 10;
 
-  // Color Themes mapping
+  // Color Themes mapping - UPDATED to standard colors
   const themes = {
-    cyan: {
-      bg: 'bg-cyan-50',
-      title: 'text-cyan-700',
-      active: 'bg-white text-cyan-600',
-      inactive: 'bg-cyan-100/50 border-cyan-200'
+    blue: {
+      bg: 'bg-blue-50',
+      title: 'text-blue-700',
+      active: 'bg-white text-blue-600',
+      inactive: 'bg-blue-100/50 border-blue-200'
     },
-    teal: {
-      bg: 'bg-teal-50',
-      title: 'text-teal-700',
-      active: 'bg-white text-teal-600',
-      inactive: 'bg-teal-100/50 border-teal-200'
+    green: {
+      bg: 'bg-green-50',
+      title: 'text-green-700',
+      active: 'bg-white text-green-600',
+      inactive: 'bg-green-100/50 border-green-200'
     }
   };
 
-  const currentTheme = themes[themeColor] || themes.cyan;
+  const currentTheme = themes[themeColor] || themes.blue;
 
   useEffect(() => {
     let interval;
