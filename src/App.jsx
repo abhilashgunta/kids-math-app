@@ -2,33 +2,57 @@ import React, { useState, useEffect, useRef } from 'react';
 import { 
   ArrowLeft, Home, RotateCcw, Check, Pause, Play, 
   Circle, Square, Triangle, Star, Hexagon, Minus, 
-  Calculator, Smile, Heart, HelpCircle, Scale, Shapes, LayoutGrid, Hash, Plus 
+  Calculator, Smile, Heart, HelpCircle, Scale, Shapes, LayoutGrid, Hash, Plus, Volume2 
 } from 'lucide-react';
 
+
 // --- Sound Utilities ---
-// We use the paths directly. In a real build, ensure these files are in your /public folder.
+// We use the paths directly. In a real build, ensure these files are in your /$
 const sounds = {
-  click: '/beep-21.mp3', 
-  correct: '/button-41.mp3', 
+  click: '/beep-21.mp3',
+  correct: '/button-41.mp3',
   wrong: '/button-44.mp3'
 };
+
 
 const playSound = (type) => {
   try {
     const audio = new Audio(sounds[type]);
-    audio.volume = 0.5; // Set volume to 50% so it's not too loud
-    audio.play().catch(e => console.log("Audio play failed (interaction needed first):", e));
+    audio.volume = 0.5; 
+    audio.play().catch(e => console.log("Audio play failed:", e));
   } catch (err) {
     console.error("Error initializing audio:", err);
   }
 };
 
+// --- Text to Speech Utility ---
+const speakNumber = (num, text) => {
+  if (!window.speechSynthesis) return;
+  
+  window.speechSynthesis.cancel();
+
+  const utterance = new SpeechSynthesisUtterance(text || num.toString());
+  utterance.rate = 0.9; 
+  utterance.pitch = 1.1; 
+  utterance.volume = 1.0;
+
+  const voices = window.speechSynthesis.getVoices();
+  const preferredVoice = voices.find(voice => 
+    voice.name.includes("Google US English") || 
+    voice.name.includes("Samantha") || 
+    voice.lang.startsWith("en")
+  );
+  
+  if (preferredVoice) utterance.voice = preferredVoice;
+
+  window.speechSynthesis.speak(utterance);
+};
+
 const App = () => {
   // Views: 'home', 'cat_numbers', 'cat_math', 'cat_shapes', 
-  //        'counting', 'adding', 'subtracting', 'comparison', 'patterns', 'shapes'
+  //        'counting', 'counting_voice', 'skip_counting_2', 'skip_counting_10', 'adding', 'subtracting', 'comparison', 'patterns', 'shapes'
   const [currentView, setCurrentView] = useState('home');
 
-  // Wrapper to play click sound on navigation
   const navigateTo = (view) => {
     playSound('click');
     setCurrentView(view);
@@ -47,7 +71,10 @@ const App = () => {
           title="Numbers" 
           onBack={() => navigateTo('home')} 
           items={[
-            { id: 'counting', label: 'Count 1-20', icon: <span className="text-6xl font-bold">123</span>, color: 'bg-yellow-400 text-yellow-900' }
+            { id: 'counting', label: 'Count 1-20', icon: <span className="text-6xl font-bold">123</span>, color: 'bg-yellow-400 text-yellow-900' },
+            { id: 'counting_voice', label: 'Count 1-20', icon: <Volume2 size={64} strokeWidth={2} />, color: 'bg-orange-400 text-orange-900' },
+            { id: 'skip_counting_2', label: 'Skip Count by 2', icon: <span className="text-4xl font-bold text-center">2, 4...</span>, color: 'bg-cyan-400 text-cyan-900' },
+            { id: 'skip_counting_10', label: 'Skip Count by 10', icon: <span className="text-4xl font-bold text-center">10, 20...</span>, color: 'bg-teal-400 text-teal-900' }
           ]}
           onSelect={(id) => navigateTo(id)}
         />
@@ -82,6 +109,30 @@ const App = () => {
       {currentView === 'counting' && (
         <CountingGame onBack={() => navigateTo('cat_numbers')} onHome={() => navigateTo('home')} />
       )}
+      {currentView === 'counting_voice' && (
+        <CountingGameVoice onBack={() => navigateTo('cat_numbers')} onHome={() => navigateTo('home')} />
+      )}
+      
+      {/* Reusing SkipCountingGame component with different props */}
+      {currentView === 'skip_counting_2' && (
+        <SkipCountingGame 
+          step={2} 
+          title="Skip Counting by 2" 
+          themeColor="cyan"
+          onBack={() => navigateTo('cat_numbers')} 
+          onHome={() => navigateTo('home')} 
+        />
+      )}
+      {currentView === 'skip_counting_10' && (
+        <SkipCountingGame 
+          step={10} 
+          title="Skip Counting by 10" 
+          themeColor="teal"
+          onBack={() => navigateTo('cat_numbers')} 
+          onHome={() => navigateTo('home')} 
+        />
+      )}
+
       {currentView === 'adding' && (
         <AddingGame onBack={() => navigateTo('cat_math')} onHome={() => navigateTo('home')} />
       )}
@@ -229,7 +280,7 @@ const CountingGame = ({ onBack, onHome }) => {
           }
           return prev + 1;
         });
-      }, 2000); // 2 seconds per number
+      }, 2000); 
     }
     return () => clearInterval(interval);
   }, [isFinished, isPaused]);
@@ -249,6 +300,7 @@ const CountingGame = ({ onBack, onHome }) => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-white w-full relative pb-16">
+      <NavButtons onBack={onBack} onHome={onHome} />
       <div className="absolute top-4 right-4">
         <Logo />
       </div>
@@ -266,8 +318,203 @@ const CountingGame = ({ onBack, onHome }) => {
         isPaused={isPaused} 
         onPauseToggle={() => { setIsPaused(!isPaused); playSound('click'); }} 
         onRestart={handleRestart} 
-        onBack={onBack} 
-        onHome={onHome} 
+      />
+    </div>
+  );
+};
+
+const CountingGameVoice = ({ onBack, onHome }) => {
+  const [number, setNumber] = useState(1);
+  const [isFinished, setIsFinished] = useState(false);
+  const [isPaused, setIsPaused] = useState(false);
+
+  const numberNames = [
+    "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten",
+    "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen", "twenty"
+  ];
+
+  // Ensure voices are loaded
+  useEffect(() => {
+    const loadVoices = () => {
+      window.speechSynthesis.getVoices();
+    };
+    loadVoices();
+    window.speechSynthesis.onvoiceschanged = loadVoices;
+    
+    // Speak the first number immediately
+    if (!isPaused && !isFinished) {
+      speakNumber(1, "one");
+    }
+  }, []);
+
+  useEffect(() => {
+    let interval;
+    if (!isFinished && !isPaused) {
+      interval = setInterval(() => {
+        setNumber((prev) => {
+          const next = prev + 1;
+          if (next > 20) {
+            setIsFinished(true);
+            return 20;
+          }
+          // Speak the new number
+          speakNumber(next, numberNames[next - 1]);
+          return next;
+        });
+      }, 2500); // Slightly slower (2.5s) to allow speech to finish
+    }
+    return () => clearInterval(interval);
+  }, [isFinished, isPaused]);
+
+  const handleRestart = () => {
+    setNumber(1);
+    setIsFinished(false);
+    setIsPaused(false);
+    playSound('click');
+    speakNumber(1, "one");
+  };
+
+  const handlePause = () => {
+    const newPausedState = !isPaused;
+    setIsPaused(newPausedState);
+    playSound('click');
+    if (newPausedState) {
+      window.speechSynthesis.cancel();
+    } else {
+      // Resume speaking current number
+      speakNumber(number, numberNames[number - 1]);
+    }
+  };
+
+  if (isFinished) {
+    return (
+      <CompletionScreen onRestart={handleRestart} onBack={onBack} onHome={onHome} />
+    );
+  }
+
+  return (
+    <div className="flex flex-col items-center justify-center min-h-screen bg-orange-50 w-full relative pb-16">
+      <NavButtons onBack={onBack} onHome={onHome} />
+      <div className="absolute top-4 right-4">
+        <Logo />
+      </div>
+      
+      <div className="flex flex-col items-center transform -translate-y-16">
+        <span className="font-bold text-orange-600 leading-none" style={{ fontSize: '15rem' }}>
+          {number}
+        </span>
+        <span className="text-6xl font-bold text-gray-500 mt-4">
+          {numberNames[number - 1]}
+        </span>
+        <div className="mt-8 p-3 bg-white rounded-full shadow-sm text-gray-400 flex items-center gap-2">
+          <Volume2 size={24} />
+          <span className="text-sm font-medium">Voice On</span>
+        </div>
+      </div>
+
+      <ControlBar 
+        isPaused={isPaused} 
+        onPauseToggle={handlePause} 
+        onRestart={handleRestart} 
+      />
+    </div>
+  );
+};
+
+// --- Generic Skip Counting Game ---
+const SkipCountingGame = ({ onBack, onHome, step = 2, title, themeColor = "cyan" }) => {
+  const [filledCount, setFilledCount] = useState(0);
+  const [isFinished, setIsFinished] = useState(false);
+  const [isPaused, setIsPaused] = useState(false);
+
+  // Numbers to fill (10 cells for both games)
+  const totalCells = 10;
+
+  // Color Themes mapping
+  const themes = {
+    cyan: {
+      bg: 'bg-cyan-50',
+      title: 'text-cyan-700',
+      active: 'bg-white text-cyan-600',
+      inactive: 'bg-cyan-100/50 border-cyan-200'
+    },
+    teal: {
+      bg: 'bg-teal-50',
+      title: 'text-teal-700',
+      active: 'bg-white text-teal-600',
+      inactive: 'bg-teal-100/50 border-teal-200'
+    }
+  };
+
+  const currentTheme = themes[themeColor] || themes.cyan;
+
+  useEffect(() => {
+    let interval;
+    if (!isFinished && !isPaused) {
+      interval = setInterval(() => {
+        setFilledCount((prev) => {
+          if (prev >= totalCells) {
+            setIsFinished(true);
+            return totalCells;
+          }
+          return prev + 1;
+        });
+      }, 2000); 
+    }
+    return () => clearInterval(interval);
+  }, [isFinished, isPaused]);
+
+  const handleRestart = () => {
+    setFilledCount(0);
+    setIsFinished(false);
+    setIsPaused(false);
+    playSound('click');
+  };
+
+  if (isFinished) {
+    return (
+      <CompletionScreen onRestart={handleRestart} onBack={onBack} onHome={onHome} />
+    );
+  }
+
+  return (
+    <div className={`flex flex-col items-center justify-center min-h-screen ${currentTheme.bg} w-full relative pb-16`}>
+      <NavButtons onBack={onBack} onHome={onHome} />
+      <div className="absolute top-4 right-4">
+        <Logo />
+      </div>
+
+      <div className="flex flex-col items-center w-full max-w-4xl px-4">
+        <h2 className={`text-4xl font-bold ${currentTheme.title} mb-12`}>{title}</h2>
+        
+        {/* Grid Container: 2 columns x 5 rows */}
+        <div className="grid grid-cols-2 gap-6 w-full max-w-2xl">
+          {Array.from({ length: totalCells }).map((_, index) => {
+            const number = (index + 1) * step;
+            const isVisible = index < filledCount;
+            
+            return (
+              <div 
+                key={index}
+                className={`
+                  h-24 md:h-32 rounded-2xl flex items-center justify-center text-5xl md:text-6xl font-bold shadow-md transition-all duration-500 transform
+                  ${isVisible 
+                    ? `${currentTheme.active} scale-100 opacity-100` 
+                    : `${currentTheme.inactive} text-transparent scale-95 opacity-50 border-2 border-dashed`
+                  }
+                `}
+              >
+                {number}
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
+      <ControlBar 
+        isPaused={isPaused} 
+        onPauseToggle={() => { setIsPaused(!isPaused); playSound('click'); }} 
+        onRestart={handleRestart} 
       />
     </div>
   );
@@ -810,12 +1057,16 @@ const ControlBar = ({ isPaused, onPauseToggle, onRestart, onBack, onHome }) => (
     <button onClick={onRestart} className="p-6 bg-yellow-100 rounded-full text-yellow-600 hover:bg-yellow-200 shadow-lg active:scale-95 transition">
       <RotateCcw size={40} />
     </button>
-    <button onClick={() => { playSound('click'); onBack(); }} className="p-6 bg-gray-100 rounded-full text-gray-600 hover:bg-gray-200 shadow-lg active:scale-95 transition">
-      <ArrowLeft size={40} />
-    </button>
-    <button onClick={() => { playSound('click'); onHome(); }} className="p-6 bg-orange-100 rounded-full text-orange-600 hover:bg-orange-200 shadow-lg active:scale-95 transition">
-      <Home size={40} />
-    </button>
+    {onBack && (
+      <button onClick={() => { playSound('click'); onBack(); }} className="p-6 bg-gray-100 rounded-full text-gray-600 hover:bg-gray-200 shadow-lg active:scale-95 transition">
+        <ArrowLeft size={40} />
+      </button>
+    )}
+    {onHome && (
+      <button onClick={() => { playSound('click'); onHome(); }} className="p-6 bg-orange-100 rounded-full text-orange-600 hover:bg-orange-200 shadow-lg active:scale-95 transition">
+        <Home size={40} />
+      </button>
+    )}
   </div>
 );
 
