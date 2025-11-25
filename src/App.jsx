@@ -5,73 +5,98 @@ import {
   Calculator, Smile, Heart, HelpCircle, Scale, Shapes, LayoutGrid, Hash, Plus 
 } from 'lucide-react';
 
+// --- Sound Utilities ---
+// We use the paths directly. In a real build, ensure these files are in your /public folder.
+const sounds = {
+  click: 'https://www.soundjay.com/buttons/sounds/beep-21.mp3', 
+  // Updated per request
+  correct: 'https://www.soundjay.com/buttons/sounds/button-41.mp3', 
+  wrong: 'https://www.soundjay.com/buttons/sounds/button-44.mp3'
+};
+
+const playSound = (type) => {
+  try {
+    const audio = new Audio(sounds[type]);
+    audio.volume = 0.5; // Set volume to 50% so it's not too loud
+    audio.play().catch(e => console.log("Audio play failed (interaction needed first):", e));
+  } catch (err) {
+    console.error("Error initializing audio:", err);
+  }
+};
+
 const App = () => {
   // Views: 'home', 'cat_numbers', 'cat_math', 'cat_shapes', 
   //        'counting', 'adding', 'subtracting', 'comparison', 'patterns', 'shapes'
   const [currentView, setCurrentView] = useState('home');
 
+  // Wrapper to play click sound on navigation
+  const navigateTo = (view) => {
+    playSound('click');
+    setCurrentView(view);
+  };
+
   return (
     <div className="min-h-screen bg-blue-50 font-sans select-none relative overflow-hidden">
       {/* Main Home Screen */}
       {currentView === 'home' && (
-        <HomeView onSelectCategory={(cat) => setCurrentView(cat)} />
+        <HomeView onSelectCategory={(cat) => navigateTo(cat)} />
       )}
 
       {/* Category Sub-menus */}
       {currentView === 'cat_numbers' && (
         <CategoryMenu 
           title="Numbers" 
-          onBack={() => setCurrentView('home')} 
+          onBack={() => navigateTo('home')} 
           items={[
             { id: 'counting', label: 'Count 1-20', icon: <span className="text-6xl font-bold">123</span>, color: 'bg-yellow-400 text-yellow-900' }
           ]}
-          onSelect={(id) => setCurrentView(id)}
+          onSelect={(id) => navigateTo(id)}
         />
       )}
 
       {currentView === 'cat_math' && (
         <CategoryMenu 
           title="Math" 
-          onBack={() => setCurrentView('home')} 
+          onBack={() => navigateTo('home')} 
           items={[
             { id: 'adding', label: 'Add Numbers', icon: <Plus size={64} strokeWidth={4} />, color: 'bg-purple-400 text-purple-900' },
             { id: 'subtracting', label: 'Subtract', icon: <Minus size={64} strokeWidth={4} />, color: 'bg-red-400 text-red-900' }
           ]}
-          onSelect={(id) => setCurrentView(id)}
+          onSelect={(id) => navigateTo(id)}
         />
       )}
 
       {currentView === 'cat_shapes' && (
         <CategoryMenu 
           title="Shapes" 
-          onBack={() => setCurrentView('home')} 
+          onBack={() => navigateTo('home')} 
           items={[
             { id: 'comparison', label: 'More or Less?', icon: <Scale size={64} strokeWidth={2} />, color: 'bg-green-400 text-green-900' },
             { id: 'patterns', label: 'Patterns', icon: <LayoutGrid size={64} strokeWidth={2} />, color: 'bg-blue-400 text-blue-900' },
             { id: 'shapes', label: 'Find Shape', icon: <Shapes size={64} strokeWidth={2} />, color: 'bg-pink-400 text-pink-900' }
           ]}
-          onSelect={(id) => setCurrentView(id)}
+          onSelect={(id) => navigateTo(id)}
         />
       )}
 
-      {/* Games - onBack returns to their specific category */}
+      {/* Games */}
       {currentView === 'counting' && (
-        <CountingGame onBack={() => setCurrentView('cat_numbers')} onHome={() => setCurrentView('home')} />
+        <CountingGame onBack={() => navigateTo('cat_numbers')} onHome={() => navigateTo('home')} />
       )}
       {currentView === 'adding' && (
-        <AddingGame onBack={() => setCurrentView('cat_math')} onHome={() => setCurrentView('home')} />
+        <AddingGame onBack={() => navigateTo('cat_math')} onHome={() => navigateTo('home')} />
       )}
       {currentView === 'subtracting' && (
-        <SubtractingGame onBack={() => setCurrentView('cat_math')} onHome={() => setCurrentView('home')} />
+        <SubtractingGame onBack={() => navigateTo('cat_math')} onHome={() => navigateTo('home')} />
       )}
       {currentView === 'comparison' && (
-        <ComparisonGame onBack={() => setCurrentView('cat_shapes')} onHome={() => setCurrentView('home')} />
+        <ComparisonGame onBack={() => navigateTo('cat_shapes')} onHome={() => navigateTo('home')} />
       )}
       {currentView === 'patterns' && (
-        <PatternGame onBack={() => setCurrentView('cat_shapes')} onHome={() => setCurrentView('home')} />
+        <PatternGame onBack={() => navigateTo('cat_shapes')} onHome={() => navigateTo('home')} />
       )}
       {currentView === 'shapes' && (
-        <ShapeGame onBack={() => setCurrentView('cat_shapes')} onHome={() => setCurrentView('home')} />
+        <ShapeGame onBack={() => navigateTo('cat_shapes')} onHome={() => navigateTo('home')} />
       )}
       
       <Footer />
@@ -115,21 +140,18 @@ const HomeView = ({ onSelectCategory }) => (
         color="bg-yellow-100 text-yellow-800 border-4 border-yellow-400"
         icon={<Hash size={80} />}
         label="Numbers"
-        // subLabel removed
       />
       <CategoryButton 
         onClick={() => onSelectCategory('cat_math')} 
         color="bg-purple-100 text-purple-800 border-4 border-purple-400"
         icon={<div className="flex gap-2"><Plus size={40} /><Minus size={40} /></div>}
         label="Math" 
-        // subLabel removed
       />
       <CategoryButton 
         onClick={() => onSelectCategory('cat_shapes')} 
         color="bg-blue-100 text-blue-800 border-4 border-blue-400"
         icon={<Shapes size={80} />}
         label="Shapes"
-        // subLabel removed
       />
     </div>
   </div>
@@ -217,6 +239,7 @@ const CountingGame = ({ onBack, onHome }) => {
     setNumber(1);
     setIsFinished(false);
     setIsPaused(false);
+    playSound('click');
   };
 
   if (isFinished) {
@@ -242,7 +265,7 @@ const CountingGame = ({ onBack, onHome }) => {
 
       <ControlBar 
         isPaused={isPaused} 
-        onPauseToggle={() => setIsPaused(!isPaused)} 
+        onPauseToggle={() => { setIsPaused(!isPaused); playSound('click'); }} 
         onRestart={handleRestart} 
         onBack={onBack} 
         onHome={onHome} 
@@ -303,8 +326,10 @@ const AddingGame = ({ onBack, onHome }) => {
     const sum = problem.a + problem.b;
     if (parseInt(userAnswer) === sum) {
       setFeedback('correct');
+      playSound('correct');
     } else {
       setFeedback('incorrect');
+      playSound('wrong');
       setTimeout(() => setFeedback(null), 2000); 
     }
   };
@@ -407,8 +432,14 @@ const SubtractingGame = ({ onBack, onHome }) => {
     e.preventDefault();
     if (!userAnswer) return;
     const diff = problem.a - problem.b;
-    if (parseInt(userAnswer) === diff) { setFeedback('correct'); } 
-    else { setFeedback('incorrect'); setTimeout(() => setFeedback(null), 2000); }
+    if (parseInt(userAnswer) === diff) { 
+      setFeedback('correct'); 
+      playSound('correct');
+    } else { 
+      setFeedback('incorrect'); 
+      playSound('wrong');
+      setTimeout(() => setFeedback(null), 2000); 
+    }
   };
 
   const renderShapes = (count, ShapeComponent, color) => (
@@ -506,8 +537,10 @@ const ComparisonGame = ({ onBack, onHome }) => {
     
     if (isCorrect) {
       setFeedback('correct');
+      playSound('correct');
     } else {
       setFeedback('incorrect');
+      playSound('wrong');
       setTimeout(() => setFeedback(null), 1000);
     }
   };
@@ -601,8 +634,10 @@ const PatternGame = ({ onBack, onHome }) => {
     if (feedback === 'correct') return;
     if (option.id === correctAnswer.id) {
       setFeedback('correct');
+      playSound('correct');
     } else {
       setFeedback('incorrect');
+      playSound('wrong');
       setTimeout(() => setFeedback(null), 1000);
     }
   };
@@ -718,8 +753,10 @@ const ShapeGame = ({ onBack, onHome }) => {
     if (feedback === 'correct') return;
     if (item.id === 'target') {
       setFeedback('correct');
+      playSound('correct');
     } else {
       setFeedback('incorrect');
+      playSound('wrong');
       setTimeout(() => setFeedback(null), 1000);
     }
   };
@@ -761,8 +798,8 @@ const ShapeGame = ({ onBack, onHome }) => {
 
 const NavButtons = ({ onBack, onHome }) => (
   <div className="absolute top-8 left-8 flex gap-4 z-10">
-    <button onClick={onBack} className="p-3 bg-white rounded-full shadow text-gray-600 hover:bg-gray-100"><ArrowLeft /></button>
-    <button onClick={onHome} className="p-3 bg-white rounded-full shadow text-gray-600 hover:bg-gray-100"><Home /></button>
+    <button onClick={() => { playSound('click'); onBack(); }} className="p-3 bg-white rounded-full shadow text-gray-600 hover:bg-gray-100"><ArrowLeft /></button>
+    <button onClick={() => { playSound('click'); onHome(); }} className="p-3 bg-white rounded-full shadow text-gray-600 hover:bg-gray-100"><Home /></button>
   </div>
 );
 
@@ -774,10 +811,10 @@ const ControlBar = ({ isPaused, onPauseToggle, onRestart, onBack, onHome }) => (
     <button onClick={onRestart} className="p-6 bg-yellow-100 rounded-full text-yellow-600 hover:bg-yellow-200 shadow-lg active:scale-95 transition">
       <RotateCcw size={40} />
     </button>
-    <button onClick={onBack} className="p-6 bg-gray-100 rounded-full text-gray-600 hover:bg-gray-200 shadow-lg active:scale-95 transition">
+    <button onClick={() => { playSound('click'); onBack(); }} className="p-6 bg-gray-100 rounded-full text-gray-600 hover:bg-gray-200 shadow-lg active:scale-95 transition">
       <ArrowLeft size={40} />
     </button>
-    <button onClick={onHome} className="p-6 bg-orange-100 rounded-full text-orange-600 hover:bg-orange-200 shadow-lg active:scale-95 transition">
+    <button onClick={() => { playSound('click'); onHome(); }} className="p-6 bg-orange-100 rounded-full text-orange-600 hover:bg-orange-200 shadow-lg active:scale-95 transition">
       <Home size={40} />
     </button>
   </div>
@@ -808,8 +845,8 @@ const CompletionScreen = ({ onRestart, onBack, onHome }) => (
     <h2 className="text-5xl font-bold text-green-600 mb-12">Great Job!</h2>
     <div className="flex gap-6">
       <MenuButton onClick={onRestart} icon={<RotateCcw />} label="Replay" color="bg-blue-500" />
-      <MenuButton onClick={onBack} icon={<ArrowLeft />} label="Back" color="bg-gray-500" />
-      <MenuButton onClick={onHome} icon={<Home />} label="Home" color="bg-orange-500" />
+      <MenuButton onClick={() => { playSound('click'); onBack(); }} icon={<ArrowLeft />} label="Back" color="bg-gray-500" />
+      <MenuButton onClick={() => { playSound('click'); onHome(); }} icon={<Home />} label="Home" color="bg-orange-500" />
     </div>
   </div>
 );
