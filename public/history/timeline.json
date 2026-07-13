@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "event": "Discovery of Fire",
+    "year": -1000000,
+    "era": "Prehistoric",
+    "description": "Early humans begin using fire for warmth and cooking",
+    "impact": "Revolutionized human civilization"
+  },
+  {
+    "id": 2,
+    "event": "Writing Invented",
+    "year": -3200,
+    "era": "Ancient",
+    "description": "Sumerians develop cuneiform, the earliest known writing system",
+    "impact": "Enabled record-keeping and communication"
+  },
+  {
+    "id": 3,
+    "event": "Great Wall of China Built",
+    "year": -1000,
+    "era": "Ancient",
+    "description": "Construction begins on the Great Wall to defend against invasions",
+    "impact": "One of the largest construction projects ever"
+  },
+  {
+    "id": 4,
+    "event": "Roman Empire Founded",
+    "year": -27,
+    "era": "Ancient",
+    "description": "Augustus becomes the first Roman Emperor",
+    "impact": "Created one of history's greatest empires"
+  },
+  {
+    "id": 5,
+    "event": "Dark Ages Begin",
+    "year": 500,
+    "era": "Medieval",
+    "description": "Fall of the Western Roman Empire marks start of the Dark Ages",
+    "impact": "Period of economic and cultural decline in Europe"
+  },
+  {
+    "id": 6,
+    "event": "Renaissance Begins",
+    "year": 1300,
+    "era": "Renaissance",
+    "description": "A cultural and artistic movement begins in Italy",
+    "impact": "Revival of classical learning and humanism"
+  },
+  {
+    "id": 7,
+    "event": "Age of Exploration",
+    "year": 1492,
+    "era": "Early Modern",
+    "description": "Columbus sails across the Atlantic Ocean",
+    "impact": "Led to European exploration of the Americas"
+  },
+  {
+    "id": 8,
+    "event": "Industrial Revolution Begins",
+    "year": 1760,
+    "era": "Modern",
+    "description": "Transition from agricultural to industrial economy begins in Britain",
+    "impact": "Transformed manufacturing and society"
+  },
+  {
+    "id": 9,
+    "event": "American Independence",
+    "year": 1776,
+    "era": "Modern",
+    "description": "United States declares independence from British rule",
+    "impact": "Birth of democratic nation in North America"
+  },
+  {
+    "id": 10,
+    "event": "French Revolution",
+    "year": 1789,
+    "era": "Modern",
+    "description": "Revolution overthrows French monarchy and feudalism",
+    "impact": "Spread ideals of liberty, equality, and democracy"
+  },
+  {
+    "id": 11,
+    "event": "Invention of the Telegraph",
+    "year": 1844,
+    "era": "Modern",
+    "description": "Samuel Morse sends first telegraph message",
+    "impact": "First form of instant long-distance communication"
+  },
+  {
+    "id": 12,
+    "event": "World War I",
+    "year": 1914,
+    "era": "Modern",
+    "description": "First global conflict reshapes the world map",
+    "impact": "Led to new countries and changed international politics"
+  },
+  {
+    "id": 13,
+    "event": "Moon Landing",
+    "year": 1969,
+    "era": "Contemporary",
+    "description": "Apollo 11 astronauts land on the Moon",
+    "impact": "Greatest achievement in space exploration"
+  },
+  {
+    "id": 14,
+    "event": "Internet Goes Public",
+    "year": 1991,
+    "era": "Contemporary",
+    "description": "World Wide Web becomes available to the public",
+    "impact": "Connected the world and transformed communication"
+  },
+  {
+    "id": 15,
+    "event": "First AI Language Model",
+    "year": 2022,
+    "era": "Contemporary",
+    "description": "Advanced AI chatbots become widely accessible",
+    "impact": "Beginning of AI revolution in everyday life"
+  }
+]

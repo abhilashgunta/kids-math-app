@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "order": 1,
+    "name": "Mercury",
+    "type": "Terrestrial",
+    "distance": 57.9,
+    "diameter": 4879,
+    "moons": 0,
+    "image": "https://images.unsplash.com/photo-1444080748397-f442aa95c3e5?w=400&h=300&fit=crop",
+    "description": "The smallest and fastest planet, closest to the Sun",
+    "facts": "Has extreme temperatures, no atmosphere, named after Roman messenger god"
+  },
+  {
+    "id": 2,
+    "order": 2,
+    "name": "Venus",
+    "type": "Terrestrial",
+    "distance": 108.2,
+    "diameter": 12104,
+    "moons": 0,
+    "image": "https://images.unsplash.com/photo-1495567720989-cebdbdd97913?w=400&h=300&fit=crop",
+    "description": "The hottest planet with a thick, toxic atmosphere",
+    "facts": "Rotates backwards, brightest planet, surface hot enough to melt lead"
+  },
+  {
+    "id": 3,
+    "order": 3,
+    "name": "Earth",
+    "type": "Terrestrial",
+    "distance": 149.6,
+    "diameter": 12742,
+    "moons": 1,
+    "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=400&h=300&fit=crop",
+    "description": "Our home planet, the only known place with life",
+    "facts": "Has one moon, 71% water, perfect conditions for life"
+  },
+  {
+    "id": 4,
+    "order": 4,
+    "name": "Mars",
+    "type": "Terrestrial",
+    "distance": 227.9,
+    "diameter": 6779,
+    "moons": 2,
+    "image": "https://images.unsplash.com/photo-1446776877081-d282a0f896e2?w=400&h=300&fit=crop",
+    "description": "The red planet, a target for future human exploration",
+    "facts": "Has largest volcano in solar system, thin atmosphere, rust-colored surface"
+  },
+  {
+    "id": 5,
+    "order": 5,
+    "name": "Jupiter",
+    "type": "Gas Giant",
+    "distance": 778.5,
+    "diameter": 139820,
+    "moons": 95,
+    "image": "https://images.unsplash.com/photo-1446776877081-d282a0f896e2?w=400&h=300&fit=crop",
+    "description": "The largest planet, a massive gas giant with many moons",
+    "facts": "Great Red Spot storm, 95 known moons, strongest magnetic field"
+  },
+  {
+    "id": 6,
+    "order": 6,
+    "name": "Saturn",
+    "type": "Gas Giant",
+    "distance": 1434.0,
+    "diameter": 116460,
+    "moons": 146,
+    "image": "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=400&h=300&fit=crop",
+    "description": "Famous for its beautiful rings made of ice and rock",
+    "facts": "Most magnificent rings, 146 known moons, second largest planet"
+  },
+  {
+    "id": 7,
+    "order": 7,
+    "name": "Uranus",
+    "type": "Ice Giant",
+    "distance": 2871.0,
+    "diameter": 50724,
+    "moons": 27,
+    "image": "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=400&h=300&fit=crop",
+    "description": "An ice giant that rotates on its side",
+    "facts": "Rotates on its side due to collision, blue-green color, thin ring system"
+  },
+  {
+    "id": 8,
+    "order": 8,
+    "name": "Neptune",
+    "type": "Ice Giant",
+    "distance": 4495.1,
+    "diameter": 49244,
+    "moons": 14,
+    "image": "https://images.unsplash.com/photo-1443890923872-c1fb25b45885?w=400&h=300&fit=crop",
+    "description": "The most distant planet with strong winds and storms",
+    "facts": "Fastest winds in solar system, deep blue color, coldest planetary atmosphere"
+  }
+]

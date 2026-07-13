@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "country": "Japan",
+    "language": "Japanese",
+    "phrases": [
+      { "english": "Hello", "phrase": "Konnichiwa", "romaji": "こんにちは" },
+      { "english": "Thank you", "phrase": "Arigatou gozaimasu", "romaji": "ありがとうございます" },
+      { "english": "Goodbye", "phrase": "Sayonara", "romaji": "さようなら" }
+    ]
+  },
+  {
+    "id": 2,
+    "country": "France",
+    "language": "French",
+    "phrases": [
+      { "english": "Hello", "phrase": "Bonjour", "romaji": "Bonjour" },
+      { "english": "Thank you", "phrase": "Merci beaucoup", "romaji": "Merci beaucoup" },
+      { "english": "Goodbye", "phrase": "Au revoir", "romaji": "Au revoir" }
+    ]
+  },
+  {
+    "id": 3,
+    "country": "Spain",
+    "language": "Spanish",
+    "phrases": [
+      { "english": "Hello", "phrase": "Hola", "romaji": "Hola" },
+      { "english": "Thank you", "phrase": "Gracias", "romaji": "Gracias" },
+      { "english": "Goodbye", "phrase": "Adiós", "romaji": "Adiós" }
+    ]
+  },
+  {
+    "id": 4,
+    "country": "Germany",
+    "language": "German",
+    "phrases": [
+      { "english": "Hello", "phrase": "Guten Tag", "romaji": "Guten Tag" },
+      { "english": "Thank you", "phrase": "Danke schön", "romaji": "Danke schön" },
+      { "english": "Goodbye", "phrase": "Auf Wiedersehen", "romaji": "Auf Wiedersehen" }
+    ]
+  },
+  {
+    "id": 5,
+    "country": "Brazil",
+    "language": "Portuguese",
+    "phrases": [
+      { "english": "Hello", "phrase": "Olá", "romaji": "Olá" },
+      { "english": "Thank you", "phrase": "Obrigado", "romaji": "Obrigado" },
+      { "english": "Goodbye", "phrase": "Adeus", "romaji": "Adeus" }
+    ]
+  },
+  {
+    "id": 6,
+    "country": "South Korea",
+    "language": "Korean",
+    "phrases": [
+      { "english": "Hello", "phrase": "Annyeonghaseyo", "romaji": "안녕하세요" },
+      { "english": "Thank you", "phrase": "Kamsahamnida", "romaji": "감사합니다" },
+      { "english": "Goodbye", "phrase": "Annyeong", "romaji": "안녕" }
+    ]
+  },
+  {
+    "id": 7,
+    "country": "Italy",
+    "language": "Italian",
+    "phrases": [
+      { "english": "Hello", "phrase": "Ciao", "romaji": "Ciao" },
+      { "english": "Thank you", "phrase": "Grazie", "romaji": "Grazie" },
+      { "english": "Goodbye", "phrase": "Arrivederci", "romaji": "Arrivederci" }
+    ]
+  },
+  {
+    "id": 8,
+    "country": "Mexico",
+    "language": "Spanish",
+    "phrases": [
+      { "english": "Hello", "phrase": "Hola", "romaji": "Hola" },
+      { "english": "Thank you", "phrase": "Muchas gracias", "romaji": "Muchas gracias" },
+      { "english": "Goodbye", "phrase": "Hasta luego", "romaji": "Hasta luego" }
+    ]
+  },
+  {
+    "id": 9,
+    "country": "China",
+    "language": "Mandarin Chinese",
+    "phrases": [
+      { "english": "Hello", "phrase": "Ni hao", "romaji": "你好" },
+      { "english": "Thank you", "phrase": "Xie xie", "romaji": "谢谢" },
+      { "english": "Goodbye", "phrase": "Zai jian", "romaji": "再见" }
+    ]
+  },
+  {
+    "id": 10,
+    "country": "Egypt",
+    "language": "Arabic",
+    "phrases": [
+      { "english": "Hello", "phrase": "Salaam alaikum", "romaji": "السلام عليكم" },
+      { "english": "Thank you", "phrase": "Shukran", "romaji": "شكراً" },
+      { "english": "Goodbye", "phrase": "Ma'a salama", "romaji": "مع السلامة" }
+    ]
+  }
+]

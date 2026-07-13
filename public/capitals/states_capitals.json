@@ -1,0 +1,252 @@
+[
+  {
+    "filename": "Alabama.svg",
+    "label": "Alabama",
+    "capital": "Montgomery"
+  },
+  {
+    "filename": "Alaska.svg",
+    "label": "Alaska",
+    "capital": "Juneau"
+  },
+  {
+    "filename": "Arizona.svg",
+    "label": "Arizona",
+    "capital": "Phoenix"
+  },
+  {
+    "filename": "Arkansas.svg",
+    "label": "Arkansas",
+    "capital": "Little Rock"
+  },
+  {
+    "filename": "California.svg",
+    "label": "California",
+    "capital": "Sacramento"
+  },
+  {
+    "filename": "Colorado.svg",
+    "label": "Colorado",
+    "capital": "Denver"
+  },
+  {
+    "filename": "Connecticut.svg",
+    "label": "Connecticut",
+    "capital": "Hartford"
+  },
+  {
+    "filename": "Delaware.svg",
+    "label": "Delaware",
+    "capital": "Dover"
+  },
+  {
+    "filename": "Florida.svg",
+    "label": "Florida",
+    "capital": "Tallahassee"
+  },
+  {
+    "filename": "Georgia.svg",
+    "label": "Georgia",
+    "capital": "Atlanta"
+  },
+  {
+    "filename": "Hawaii.svg",
+    "label": "Hawaii",
+    "capital": "Honolulu"
+  },
+  {
+    "filename": "Idaho.svg",
+    "label": "Idaho",
+    "capital": "Boise"
+  },
+  {
+    "filename": "Illinois.svg",
+    "label": "Illinois",
+    "capital": "Springfield"
+  },
+  {
+    "filename": "Indiana.svg",
+    "label": "Indiana",
+    "capital": "Indianapolis"
+  },
+  {
+    "filename": "Iowa.svg",
+    "label": "Iowa",
+    "capital": "Des Moines"
+  },
+  {
+    "filename": "Kansas.svg",
+    "label": "Kansas",
+    "capital": "Topeka"
+  },
+  {
+    "filename": "Kentucky.svg",
+    "label": "Kentucky",
+    "capital": "Frankfort"
+  },
+  {
+    "filename": "Louisiana.svg",
+    "label": "Louisiana",
+    "capital": "Baton Rouge"
+  },
+  {
+    "filename": "Maine.svg",
+    "label": "Maine",
+    "capital": "Augusta"
+  },
+  {
+    "filename": "Maryland.svg",
+    "label": "Maryland",
+    "capital": "Annapolis"
+  },
+  {
+    "filename": "Massachusetts.svg",
+    "label": "Massachusetts",
+    "capital": "Boston"
+  },
+  {
+    "filename": "Michigan.svg",
+    "label": "Michigan",
+    "capital": "Lansing"
+  },
+  {
+    "filename": "Minnesota.svg",
+    "label": "Minnesota",
+    "capital": "St Paul"
+  },
+  {
+    "filename": "Mississippi.svg",
+    "label": "Mississippi",
+    "capital": "Jackson"
+  },
+  {
+    "filename": "Missouri.svg",
+    "label": "Missouri",
+    "capital": "Jefferson City"
+  },
+  {
+    "filename": "Montana.svg",
+    "label": "Montana",
+    "capital": "Helena"
+  },
+  {
+    "filename": "Nebraska.svg",
+    "label": "Nebraska",
+    "capital": "Lincoln"
+  },
+  {
+    "filename": "Nevada.svg",
+    "label": "Nevada",
+    "capital": "Carson City"
+  },
+  {
+    "filename": "New Hampshire.svg",
+    "label": "New Hampshire",
+    "capital": "Concord"
+  },
+  {
+    "filename": "New Jersey.svg",
+    "label": "New Jersey",
+    "capital": "Trenton"
+  },
+  {
+    "filename": "New Mexico.svg",
+    "label": "New Mexico",
+    "capital": "Santa Fe"
+  },
+  {
+    "filename": "New York.svg",
+    "label": "New York",
+    "capital": "Albany"
+  },
+  {
+    "filename": "North Carolina.svg",
+    "label": "North Carolina",
+    "capital": "Raleigh"
+  },
+  {
+    "filename": "North Dakota.svg",
+    "label": "North Dakota",
+    "capital": "Bismarck"
+  },
+  {
+    "filename": "Ohio.svg",
+    "label": "Ohio",
+    "capital": "Columbus"
+  },
+  {
+    "filename": "Oklahoma.svg",
+    "label": "Oklahoma",
+    "capital": "Oklahoma City"
+  },
+  {
+    "filename": "Oregon.svg",
+    "label": "Oregon",
+    "capital": "Salem"
+  },
+  {
+    "filename": "Pennsylvania.svg",
+    "label": "Pennsylvania",
+    "capital": "Harrisburg"
+  },
+  {
+    "filename": "Rhode Island.svg",
+    "label": "Rhode Island",
+    "capital": "Providence"
+  },
+  {
+    "filename": "South Carolina.svg",
+    "label": "South Carolina",
+    "capital": "Columbia"
+  },
+  {
+    "filename": "South Dakota.svg",
+    "label": "South Dakota",
+    "capital": "Pierre"
+  },
+  {
+    "filename": "Tennessee.svg",
+    "label": "Tennessee",
+    "capital": "Nashville"
+  },
+  {
+    "filename": "Texas.svg",
+    "label": "Texas",
+    "capital": "Austin"
+  },
+  {
+    "filename": "Utah.svg",
+    "label": "Utah",
+    "capital": "Salt Lake City"
+  },
+  {
+    "filename": "Vermont.svg",
+    "label": "Vermont",
+    "capital": "Montpelier"
+  },
+  {
+    "filename": "Virginia.svg",
+    "label": "Virginia",
+    "capital": "Richmond"
+  },
+  {
+    "filename": "Washington.svg",
+    "label": "Washington",
+    "capital": "Olympia"
+  },
+  {
+    "filename": "West Virginia.svg",
+    "label": "West Virginia",
+    "capital": "Charleston"
+  },
+  {
+    "filename": "Wisconsin.svg",
+    "label": "Wisconsin",
+    "capital": "Madison"
+  },
+  {
+    "filename": "Wyoming.svg",
+    "label": "Wyoming",
+    "capital": "Cheyenne"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Lion",
+    "continent": "Africa",
+    "image": "https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?w=400&h=300&fit=crop",
+    "description": "The king of beasts, a large carnivorous cat",
+    "facts": "Lives in prides, males have distinctive manes, roar can be heard 9km away"
+  },
+  {
+    "id": 2,
+    "name": "Kangaroo",
+    "continent": "Australia",
+    "image": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?w=400&h=300&fit=crop",
+    "description": "A marsupial known for powerful hind legs and hopping movement",
+    "facts": "Can jump up to 10 meters, carries young in a pouch"
+  },
+  {
+    "id": 3,
+    "name": "Giant Panda",
+    "continent": "Asia",
+    "image": "https://images.unsplash.com/photo-1530595467063-de5f270d36d3?w=400&h=300&fit=crop",
+    "description": "A rare black and white bear native to China",
+    "facts": "Eats mostly bamboo, symbol of conservation, only about 1,800 in the wild"
+  },
+  {
+    "id": 4,
+    "name": "Jaguar",
+    "continent": "South America",
+    "image": "https://images.unsplash.com/photo-1589941013453-ec89f33b5e95?w=400&h=300&fit=crop",
+    "description": "The largest cat in the Americas, a powerful predator",
+    "facts": "Strongest bite force of any big cat, excellent swimmer, spotted coat"
+  },
+  {
+    "id": 5,
+    "name": "Polar Bear",
+    "continent": "North America",
+    "image": "https://images.unsplash.com/photo-1567270671170-fdc10a5bf831?w=400&h=300&fit=crop",
+    "description": "A large white bear adapted to Arctic ice and snow",
+    "facts": "Excellent swimmers, skin is actually black, fur appears white"
+  },
+  {
+    "id": 6,
+    "name": "Penguin",
+    "continent": "Antarctica",
+    "image": "https://images.unsplash.com/photo-1553904505-a0966e7285fc?w=400&h=300&fit=crop",
+    "description": "Flightless birds adapted to life in cold water",
+    "facts": "Can dive to 500 meters, waddle on land, excellent swimmers"
+  },
+  {
+    "id": 7,
+    "name": "Elephant",
+    "continent": "Africa",
+    "image": "https://images.unsplash.com/photo-1564349733211-ca1e21e6ae7f?w=400&h=300&fit=crop",
+    "description": "The largest land animal with a long trunk and memory",
+    "facts": "Trunk has 40,000 muscles, lives in herds, can live 70+ years"
+  },
+  {
+    "id": 8,
+    "name": "Koala",
+    "continent": "Australia",
+    "image": "https://images.unsplash.com/photo-1459826937669-836d192c64e0?w=400&h=300&fit=crop",
+    "description": "A tree-dwelling marsupial with fluffy ears, native to Australia",
+    "facts": "Sleeps 20 hours a day, eats eucalyptus leaves, has fingerprints like humans"
+  },
+  {
+    "id": 9,
+    "name": "Giraffe",
+    "continent": "Africa",
+    "image": "https://images.unsplash.com/photo-1516426122078-8023e06a2092?w=400&h=300&fit=crop",
+    "description": "The tallest land animal with a long neck and spotted coat",
+    "facts": "Reaches up to 6 meters tall, tongue is 50cm long, unique spot pattern"
+  },
+  {
+    "id": 10,
+    "name": "Bald Eagle",
+    "continent": "North America",
+    "image": "https://images.unsplash.com/photo-1535099519904-4d18a2cb6929?w=400&h=300&fit=crop",
+    "description": "A large bird of prey and national symbol of the United States",
+    "facts": "White head feathers, can see 8 times better than humans, lifespan 20-30 years"
+  }
+]

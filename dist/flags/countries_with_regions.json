@@ -1,0 +1,1532 @@
+[
+  {
+    "filename": "Afghanistan.svg",
+    "label": "Afghanistan",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "filename": "Albania.svg",
+    "label": "Albania",
+    "region": "Europe",
+    "subregion": "Southeast Europe"
+  },
+  {
+    "filename": "Algeria.svg",
+    "label": "Algeria",
+    "region": "Africa",
+    "subregion": "Northern Africa"
+  },
+  {
+    "filename": "American Samoa.svg",
+    "label": "American Samoa",
+    "region": "Oceania",
+    "subregion": "Polynesia"
+  },
+  {
+    "filename": "Andorra.svg",
+    "label": "Andorra",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "filename": "Angola.svg",
+    "label": "Angola",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "filename": "Anguilla.svg",
+    "label": "Anguilla",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "filename": "Antarctica.svg",
+    "label": "Antarctica",
+    "region": "Antarctic",
+    "subregion": ""
+  },
+  {
+    "filename": "Antigua and Barbuda.svg",
+    "label": "Antigua and Barbuda",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "filename": "Argentina.svg",
+    "label": "Argentina",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "filename": "Armenia.svg",
+    "label": "Armenia",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "filename": "Aruba.svg",
+    "label": "Aruba",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "filename": "Australia.svg",
+    "label": "Australia",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand"
+  },
+  {
+    "filename": "Austria.svg",
+    "label": "Austria",
+    "region": "Europe",
+    "subregion": "Central Europe"
+  },
+  {
+    "filename": "Azerbaijan.svg",
+    "label": "Azerbaijan",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "filename": "Bahamas.svg",
+    "label": "Bahamas",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "filename": "Bahrain.svg",
+    "label": "Bahrain",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "filename": "Bangladesh.svg",
+    "label": "Bangladesh",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "filename": "Barbados.svg",
+    "label": "Barbados",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "filename": "Belarus.svg",
+    "label": "Belarus",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
+  },
+  {
+    "filename": "Belgium.svg",
+    "label": "Belgium",
+    "region": "Europe",
+    "subregion": "Western Europe"
+  },
+  {
+    "filename": "Belize.svg",
+    "label": "Belize",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "filename": "Benin.svg",
+    "label": "Benin",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "filename": "Bermuda.svg",
+    "label": "Bermuda",
+    "region": "Americas",
+    "subregion": "North America"
+  },
+  {
+    "filename": "Bhutan.svg",
+    "label": "Bhutan",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "filename": "Bolivia.svg",
+    "label": "Bolivia",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "filename": "Bosnia and Herzegovina.svg",
+    "label": "Bosnia and Herzegovina",
+    "region": "Europe",
+    "subregion": "Southeast Europe"
+  },
+  {
+    "filename": "Botswana.svg",
+    "label": "Botswana",
+    "region": "Africa",
+    "subregion": "Southern Africa"
+  },
+  {
+    "filename": "Bouvet Island.svg",
+    "label": "Bouvet Island",
+    "region": "Antarctic",
+    "subregion": ""
+  },
+  {
+    "filename": "Brazil.svg",
+    "label": "Brazil",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "filename": "British Indian Ocean Territory.svg",
+    "label": "British Indian Ocean Territory",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "filename": "British Virgin Islands.svg",
+    "label": "British Virgin Islands",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "filename": "Brunei.svg",
+    "label": "Brunei",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "filename": "Bulgaria.svg",
+    "label": "Bulgaria",
+    "region": "Europe",
+    "subregion": "Southeast Europe"
+  },
+  {
+    "filename": "Burkina Faso.svg",
+    "label": "Burkina Faso",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "filename": "Burundi.svg",
+    "label": "Burundi",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "filename": "Cambodia.svg",
+    "label": "Cambodia",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "filename": "Cameroon.svg",
+    "label": "Cameroon",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "filename": "Canada.svg",
+    "label": "Canada",
+    "region": "Americas",
+    "subregion": "North America"
+  },
+  {
+    "filename": "Cape Verde.svg",
+    "label": "Cape Verde",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "filename": "Caribbean Netherlands.svg",
+    "label": "Caribbean Netherlands",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "filename": "Cayman Islands.svg",
+    "label": "Cayman Islands",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "filename": "Central African Republic.svg",
+    "label": "Central African Republic",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "filename": "Chad.svg",
+    "label": "Chad",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "filename": "Chile.svg",
+    "label": "Chile",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "filename": "China.svg",
+    "label": "China",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "filename": "Christmas Island.svg",
+    "label": "Christmas Island",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand"
+  },
+  {
+    "filename": "Cocos (Keeling) Islands.svg",
+    "label": "Cocos (Keeling) Islands",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand"
+  },
+  {
+    "filename": "Colombia.svg",
+    "label": "Colombia",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "filename": "Comoros.svg",
+    "label": "Comoros",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "filename": "Cook Islands.svg",
+    "label": "Cook Islands",
+    "region": "Oceania",
+    "subregion": "Polynesia"
+  },
+  {
+    "filename": "Costa Rica.svg",
+    "label": "Costa Rica",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "filename": "Croatia.svg",
+    "label": "Croatia",
+    "region": "Europe",
+    "subregion": "Southeast Europe"
+  },
+  {
+    "filename": "Cuba.svg",
+    "label": "Cuba",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "filename": "Curaçao.svg",
+    "label": "Curaçao",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "filename": "Cyprus.svg",
+    "label": "Cyprus",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "filename": "Czechia.svg",
+    "label": "Czechia",
+    "region": "Europe",
+    "subregion": "Central Europe"
+  },
+  {
+    "filename": "Côte d'Ivoire (Ivory Coast).svg",
+    "label": "Côte d'Ivoire (Ivory Coast)",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "filename": "DR Congo.svg",
+    "label": "DR Congo",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "filename": "Denmark.svg",
+    "label": "Denmark",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "filename": "Djibouti.svg",
+    "label": "Djibouti",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "filename": "Dominica.svg",
+    "label": "Dominica",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "filename": "Dominican Republic.svg",
+    "label": "Dominican Republic",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "filename": "Ecuador.svg",
+    "label": "Ecuador",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "filename": "Egypt.svg",
+    "label": "Egypt",
+    "region": "Africa",
+    "subregion": "Northern Africa"
+  },
+  {
+    "filename": "El Salvador.svg",
+    "label": "El Salvador",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "filename": "England.svg",
+    "label": "England",
+    "region": "Europe",
+    "subregion": ""
+  },
+  {
+    "filename": "Equatorial Guinea.svg",
+    "label": "Equatorial Guinea",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "filename": "Eritrea.svg",
+    "label": "Eritrea",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "filename": "Estonia.svg",
+    "label": "Estonia",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "filename": "Eswatini (Swaziland).svg",
+    "label": "Eswatini (Swaziland)",
+    "region": "Africa",
+    "subregion": "Southern Africa"
+  },
+  {
+    "filename": "Ethiopia.svg",
+    "label": "Ethiopia",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "filename": "European Union.svg",
+    "label": "European Union",
+    "region": "Europe",
+    "subregion": ""
+  },
+  {
+    "filename": "Falkland Islands.svg",
+    "label": "Falkland Islands",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "filename": "Faroe Islands.svg",
+    "label": "Faroe Islands",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "filename": "Fiji.svg",
+    "label": "Fiji",
+    "region": "Oceania",
+    "subregion": "Melanesia"
+  },
+  {
+    "filename": "Finland.svg",
+    "label": "Finland",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "filename": "France.svg",
+    "label": "France",
+    "region": "Europe",
+    "subregion": "Western Europe"
+  },
+  {
+    "filename": "French Guiana.svg",
+    "label": "French Guiana",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "filename": "French Polynesia.svg",
+    "label": "French Polynesia",
+    "region": "Oceania",
+    "subregion": "Polynesia"
+  },
+  {
+    "filename": "French Southern and Antarctic Lands.svg",
+    "label": "French Southern and Antarctic Lands",
+    "region": "Antarctic",
+    "subregion": ""
+  },
+  {
+    "filename": "Gabon.svg",
+    "label": "Gabon",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "filename": "Gambia.svg",
+    "label": "Gambia",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "filename": "Germany.svg",
+    "label": "Germany",
+    "region": "Europe",
+    "subregion": "Western Europe"
+  },
+  {
+    "filename": "Ghana.svg",
+    "label": "Ghana",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "filename": "Gibraltar.svg",
+    "label": "Gibraltar",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "filename": "Greece.svg",
+    "label": "Greece",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "filename": "Greenland.svg",
+    "label": "Greenland",
+    "region": "Americas",
+    "subregion": "North America"
+  },
+  {
+    "filename": "Grenada.svg",
+    "label": "Grenada",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "filename": "Guadeloupe.svg",
+    "label": "Guadeloupe",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "filename": "Guam.svg",
+    "label": "Guam",
+    "region": "Oceania",
+    "subregion": "Micronesia"
+  },
+  {
+    "filename": "Guatemala.svg",
+    "label": "Guatemala",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "filename": "Guernsey.svg",
+    "label": "Guernsey",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "filename": "Guinea-Bissau.svg",
+    "label": "Guinea-Bissau",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "filename": "Guinea.svg",
+    "label": "Guinea",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "filename": "Guyana.svg",
+    "label": "Guyana",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "filename": "Haiti.svg",
+    "label": "Haiti",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "filename": "Heard Island and McDonald Islands.svg",
+    "label": "Heard Island and McDonald Islands",
+    "region": "Antarctic",
+    "subregion": ""
+  },
+  {
+    "filename": "Honduras.svg",
+    "label": "Honduras",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "filename": "Hong Kong.svg",
+    "label": "Hong Kong",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "filename": "Hungary.svg",
+    "label": "Hungary",
+    "region": "Europe",
+    "subregion": "Central Europe"
+  },
+  {
+    "filename": "Iceland.svg",
+    "label": "Iceland",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "filename": "India.svg",
+    "label": "India",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "filename": "Indonesia.svg",
+    "label": "Indonesia",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "filename": "Iran.svg",
+    "label": "Iran",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "filename": "Iraq.svg",
+    "label": "Iraq",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "filename": "Ireland.svg",
+    "label": "Ireland",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "filename": "Isle of Man.svg",
+    "label": "Isle of Man",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "filename": "Israel.svg",
+    "label": "Israel",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "filename": "Italy.svg",
+    "label": "Italy",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "filename": "Jamaica.svg",
+    "label": "Jamaica",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "filename": "Japan.svg",
+    "label": "Japan",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "filename": "Jersey.svg",
+    "label": "Jersey",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "filename": "Jordan.svg",
+    "label": "Jordan",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "filename": "Kazakhstan.svg",
+    "label": "Kazakhstan",
+    "region": "Asia",
+    "subregion": "Central Asia"
+  },
+  {
+    "filename": "Kenya.svg",
+    "label": "Kenya",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "filename": "Kiribati.svg",
+    "label": "Kiribati",
+    "region": "Oceania",
+    "subregion": "Micronesia"
+  },
+  {
+    "filename": "Kosovo.svg",
+    "label": "Kosovo",
+    "region": "Europe",
+    "subregion": "Southeast Europe"
+  },
+  {
+    "filename": "Kuwait.svg",
+    "label": "Kuwait",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "filename": "Kyrgyzstan.svg",
+    "label": "Kyrgyzstan",
+    "region": "Asia",
+    "subregion": "Central Asia"
+  },
+  {
+    "filename": "Laos.svg",
+    "label": "Laos",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "filename": "Latvia.svg",
+    "label": "Latvia",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "filename": "Lebanon.svg",
+    "label": "Lebanon",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "filename": "Lesotho.svg",
+    "label": "Lesotho",
+    "region": "Africa",
+    "subregion": "Southern Africa"
+  },
+  {
+    "filename": "Liberia.svg",
+    "label": "Liberia",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "filename": "Libya.svg",
+    "label": "Libya",
+    "region": "Africa",
+    "subregion": "Northern Africa"
+  },
+  {
+    "filename": "Liechtenstein.svg",
+    "label": "Liechtenstein",
+    "region": "Europe",
+    "subregion": "Western Europe"
+  },
+  {
+    "filename": "Lithuania.svg",
+    "label": "Lithuania",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "filename": "Luxembourg.svg",
+    "label": "Luxembourg",
+    "region": "Europe",
+    "subregion": "Western Europe"
+  },
+  {
+    "filename": "Macau.svg",
+    "label": "Macau",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "filename": "Madagascar.svg",
+    "label": "Madagascar",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "filename": "Malawi.svg",
+    "label": "Malawi",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "filename": "Malaysia.svg",
+    "label": "Malaysia",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "filename": "Maldives.svg",
+    "label": "Maldives",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "filename": "Mali.svg",
+    "label": "Mali",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "filename": "Malta.svg",
+    "label": "Malta",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "filename": "Marshall Islands.svg",
+    "label": "Marshall Islands",
+    "region": "Oceania",
+    "subregion": "Micronesia"
+  },
+  {
+    "filename": "Martinique.svg",
+    "label": "Martinique",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "filename": "Mauritania.svg",
+    "label": "Mauritania",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "filename": "Mauritius.svg",
+    "label": "Mauritius",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "filename": "Mayotte.svg",
+    "label": "Mayotte",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "filename": "Mexico.svg",
+    "label": "Mexico",
+    "region": "Americas",
+    "subregion": "North America"
+  },
+  {
+    "filename": "Micronesia.svg",
+    "label": "Micronesia",
+    "region": "Oceania",
+    "subregion": "Micronesia"
+  },
+  {
+    "filename": "Moldova.svg",
+    "label": "Moldova",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
+  },
+  {
+    "filename": "Monaco.svg",
+    "label": "Monaco",
+    "region": "Europe",
+    "subregion": "Western Europe"
+  },
+  {
+    "filename": "Mongolia.svg",
+    "label": "Mongolia",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "filename": "Montenegro.svg",
+    "label": "Montenegro",
+    "region": "Europe",
+    "subregion": "Southeast Europe"
+  },
+  {
+    "filename": "Montserrat.svg",
+    "label": "Montserrat",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "filename": "Morocco.svg",
+    "label": "Morocco",
+    "region": "Africa",
+    "subregion": "Northern Africa"
+  },
+  {
+    "filename": "Mozambique.svg",
+    "label": "Mozambique",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "filename": "Myanmar.svg",
+    "label": "Myanmar",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "filename": "Namibia.svg",
+    "label": "Namibia",
+    "region": "Africa",
+    "subregion": "Southern Africa"
+  },
+  {
+    "filename": "Nauru.svg",
+    "label": "Nauru",
+    "region": "Oceania",
+    "subregion": "Micronesia"
+  },
+  {
+    "filename": "Nepal.svg",
+    "label": "Nepal",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "filename": "Netherlands.svg",
+    "label": "Netherlands",
+    "region": "Europe",
+    "subregion": "Western Europe"
+  },
+  {
+    "filename": "New Caledonia.svg",
+    "label": "New Caledonia",
+    "region": "Oceania",
+    "subregion": "Melanesia"
+  },
+  {
+    "filename": "New Zealand.svg",
+    "label": "New Zealand",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand"
+  },
+  {
+    "filename": "Nicaragua.svg",
+    "label": "Nicaragua",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "filename": "Niger.svg",
+    "label": "Niger",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "filename": "Nigeria.svg",
+    "label": "Nigeria",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "filename": "Niue.svg",
+    "label": "Niue",
+    "region": "Oceania",
+    "subregion": "Polynesia"
+  },
+  {
+    "filename": "Norfolk Island.svg",
+    "label": "Norfolk Island",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand"
+  },
+  {
+    "filename": "North Korea.svg",
+    "label": "North Korea",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "filename": "North Macedonia.svg",
+    "label": "North Macedonia",
+    "region": "Europe",
+    "subregion": "Southeast Europe"
+  },
+  {
+    "filename": "Northern Ireland.svg",
+    "label": "Northern Ireland",
+    "region": "Europe",
+    "subregion": ""
+  },
+  {
+    "filename": "Northern Mariana Islands.svg",
+    "label": "Northern Mariana Islands",
+    "region": "Oceania",
+    "subregion": "Micronesia"
+  },
+  {
+    "filename": "Norway.svg",
+    "label": "Norway",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "filename": "Oman.svg",
+    "label": "Oman",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "filename": "Pakistan.svg",
+    "label": "Pakistan",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "filename": "Palau.svg",
+    "label": "Palau",
+    "region": "Oceania",
+    "subregion": "Micronesia"
+  },
+  {
+    "filename": "Palestine.svg",
+    "label": "Palestine",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "filename": "Panama.svg",
+    "label": "Panama",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "filename": "Papua New Guinea.svg",
+    "label": "Papua New Guinea",
+    "region": "Oceania",
+    "subregion": "Melanesia"
+  },
+  {
+    "filename": "Paraguay.svg",
+    "label": "Paraguay",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "filename": "Peru.svg",
+    "label": "Peru",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "filename": "Philippines.svg",
+    "label": "Philippines",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "filename": "Pitcairn Islands.svg",
+    "label": "Pitcairn Islands",
+    "region": "Oceania",
+    "subregion": "Polynesia"
+  },
+  {
+    "filename": "Poland.svg",
+    "label": "Poland",
+    "region": "Europe",
+    "subregion": "Central Europe"
+  },
+  {
+    "filename": "Portugal.svg",
+    "label": "Portugal",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "filename": "Puerto Rico.svg",
+    "label": "Puerto Rico",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "filename": "Qatar.svg",
+    "label": "Qatar",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "filename": "Republic of the Congo.svg",
+    "label": "Republic of the Congo",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "filename": "Romania.svg",
+    "label": "Romania",
+    "region": "Europe",
+    "subregion": "Southeast Europe"
+  },
+  {
+    "filename": "Russia.svg",
+    "label": "Russia",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
+  },
+  {
+    "filename": "Rwanda.svg",
+    "label": "Rwanda",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "filename": "Réunion.svg",
+    "label": "Réunion",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "filename": "Saint Barthélemy.svg",
+    "label": "Saint Barthélemy",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "filename": "Saint Helena, Ascension and Tristan da Cunha.svg",
+    "label": "Saint Helena, Ascension and Tristan da Cunha",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "filename": "Saint Kitts and Nevis.svg",
+    "label": "Saint Kitts and Nevis",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "filename": "Saint Lucia.svg",
+    "label": "Saint Lucia",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "filename": "Saint Martin.svg",
+    "label": "Saint Martin",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "filename": "Saint Pierre and Miquelon.svg",
+    "label": "Saint Pierre and Miquelon",
+    "region": "Americas",
+    "subregion": "North America"
+  },
+  {
+    "filename": "Saint Vincent and the Grenadines.svg",
+    "label": "Saint Vincent and the Grenadines",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "filename": "Samoa.svg",
+    "label": "Samoa",
+    "region": "Oceania",
+    "subregion": "Polynesia"
+  },
+  {
+    "filename": "San Marino.svg",
+    "label": "San Marino",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "filename": "Saudi Arabia.svg",
+    "label": "Saudi Arabia",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "filename": "Scotland.svg",
+    "label": "Scotland",
+    "region": "Europe",
+    "subregion": ""
+  },
+  {
+    "filename": "Senegal.svg",
+    "label": "Senegal",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "filename": "Serbia.svg",
+    "label": "Serbia",
+    "region": "Europe",
+    "subregion": "Southeast Europe"
+  },
+  {
+    "filename": "Seychelles.svg",
+    "label": "Seychelles",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "filename": "Sierra Leone.svg",
+    "label": "Sierra Leone",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "filename": "Singapore.svg",
+    "label": "Singapore",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "filename": "Sint Maarten.svg",
+    "label": "Sint Maarten",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "filename": "Slovakia.svg",
+    "label": "Slovakia",
+    "region": "Europe",
+    "subregion": "Central Europe"
+  },
+  {
+    "filename": "Slovenia.svg",
+    "label": "Slovenia",
+    "region": "Europe",
+    "subregion": "Central Europe"
+  },
+  {
+    "filename": "Solomon Islands.svg",
+    "label": "Solomon Islands",
+    "region": "Oceania",
+    "subregion": "Melanesia"
+  },
+  {
+    "filename": "Somalia.svg",
+    "label": "Somalia",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "filename": "South Africa.svg",
+    "label": "South Africa",
+    "region": "Africa",
+    "subregion": "Southern Africa"
+  },
+  {
+    "filename": "South Georgia.svg",
+    "label": "South Georgia",
+    "region": "Antarctic",
+    "subregion": ""
+  },
+  {
+    "filename": "South Korea.svg",
+    "label": "South Korea",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "filename": "South Sudan.svg",
+    "label": "South Sudan",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "filename": "Spain.svg",
+    "label": "Spain",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "filename": "Sri Lanka.svg",
+    "label": "Sri Lanka",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "filename": "Sudan.svg",
+    "label": "Sudan",
+    "region": "Africa",
+    "subregion": "Northern Africa"
+  },
+  {
+    "filename": "Suriname.svg",
+    "label": "Suriname",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "filename": "Svalbard and Jan Mayen.svg",
+    "label": "Svalbard and Jan Mayen",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "filename": "Sweden.svg",
+    "label": "Sweden",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "filename": "Switzerland.svg",
+    "label": "Switzerland",
+    "region": "Europe",
+    "subregion": "Western Europe"
+  },
+  {
+    "filename": "Syria.svg",
+    "label": "Syria",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "filename": "São Tomé and Príncipe.svg",
+    "label": "São Tomé and Príncipe",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "filename": "Taiwan.svg",
+    "label": "Taiwan",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "filename": "Tajikistan.svg",
+    "label": "Tajikistan",
+    "region": "Asia",
+    "subregion": "Central Asia"
+  },
+  {
+    "filename": "Tanzania.svg",
+    "label": "Tanzania",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "filename": "Thailand.svg",
+    "label": "Thailand",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "filename": "Timor-Leste.svg",
+    "label": "Timor-Leste",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "filename": "Togo.svg",
+    "label": "Togo",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "filename": "Tokelau.svg",
+    "label": "Tokelau",
+    "region": "Oceania",
+    "subregion": "Polynesia"
+  },
+  {
+    "filename": "Tonga.svg",
+    "label": "Tonga",
+    "region": "Oceania",
+    "subregion": "Polynesia"
+  },
+  {
+    "filename": "Trinidad and Tobago.svg",
+    "label": "Trinidad and Tobago",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "filename": "Tunisia.svg",
+    "label": "Tunisia",
+    "region": "Africa",
+    "subregion": "Northern Africa"
+  },
+  {
+    "filename": "Turkey.svg",
+    "label": "Turkey",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "filename": "Turkmenistan.svg",
+    "label": "Turkmenistan",
+    "region": "Asia",
+    "subregion": "Central Asia"
+  },
+  {
+    "filename": "Turks and Caicos Islands.svg",
+    "label": "Turks and Caicos Islands",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "filename": "Tuvalu.svg",
+    "label": "Tuvalu",
+    "region": "Oceania",
+    "subregion": "Polynesia"
+  },
+  {
+    "filename": "Uganda.svg",
+    "label": "Uganda",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "filename": "Ukraine.svg",
+    "label": "Ukraine",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
+  },
+  {
+    "filename": "United Arab Emirates.svg",
+    "label": "United Arab Emirates",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "filename": "United Kingdom.svg",
+    "label": "United Kingdom",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "filename": "United Nations.svg",
+    "label": "United Nations",
+    "region": "International",
+    "subregion": ""
+  },
+  {
+    "filename": "United States Minor Outlying Islands.svg",
+    "label": "United States Minor Outlying Islands",
+    "region": "Americas",
+    "subregion": "North America"
+  },
+  {
+    "filename": "United States Virgin Islands.svg",
+    "label": "United States Virgin Islands",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "filename": "United States.svg",
+    "label": "United States",
+    "region": "Americas",
+    "subregion": "North America"
+  },
+  {
+    "filename": "Uruguay.svg",
+    "label": "Uruguay",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "filename": "Uzbekistan.svg",
+    "label": "Uzbekistan",
+    "region": "Asia",
+    "subregion": "Central Asia"
+  },
+  {
+    "filename": "Vanuatu.svg",
+    "label": "Vanuatu",
+    "region": "Oceania",
+    "subregion": "Melanesia"
+  },
+  {
+    "filename": "Vatican City (Holy See).svg",
+    "label": "Vatican City (Holy See)",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "filename": "Venezuela.svg",
+    "label": "Venezuela",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "filename": "Vietnam.svg",
+    "label": "Vietnam",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "filename": "Wales.svg",
+    "label": "Wales",
+    "region": "Europe",
+    "subregion": ""
+  },
+  {
+    "filename": "Wallis and Futuna.svg",
+    "label": "Wallis and Futuna",
+    "region": "Oceania",
+    "subregion": "Polynesia"
+  },
+  {
+    "filename": "Western Sahara.svg",
+    "label": "Western Sahara",
+    "region": "Africa",
+    "subregion": "Northern Africa"
+  },
+  {
+    "filename": "Yemen.svg",
+    "label": "Yemen",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "filename": "Zambia.svg",
+    "label": "Zambia",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "filename": "Zimbabwe.svg",
+    "label": "Zimbabwe",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "filename": "Åland Islands.svg",
+    "label": "Åland Islands",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  }
+]

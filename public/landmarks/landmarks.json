@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Eiffel Tower",
+    "location": "Paris, France",
+    "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=400&h=300&fit=crop",
+    "year": 1889,
+    "description": "An iron lattice tower built for the 1889 World's Fair",
+    "facts": "Originally intended to be temporary, 330 meters tall"
+  },
+  {
+    "id": 2,
+    "name": "Great Wall of China",
+    "location": "China",
+    "image": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=400&h=300&fit=crop",
+    "year": 1368,
+    "description": "A massive wall built across northern China",
+    "facts": "Over 21,000 kilometers long, built over 2,000 years"
+  },
+  {
+    "id": 3,
+    "name": "Statue of Liberty",
+    "location": "New York, USA",
+    "image": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=400&h=300&fit=crop",
+    "year": 1886,
+    "description": "A colossal copper statue symbolizing freedom",
+    "facts": "Gift from France, 93 meters tall, 225 tons"
+  },
+  {
+    "id": 4,
+    "name": "Taj Mahal",
+    "location": "Agra, India",
+    "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=400&h=300&fit=crop",
+    "year": 1653,
+    "description": "A white marble mausoleum built by Emperor Shah Jahan",
+    "facts": "Built for his wife Mumtaz Mahal, took 22 years to complete"
+  },
+  {
+    "id": 5,
+    "name": "Christ the Redeemer",
+    "location": "Rio de Janeiro, Brazil",
+    "image": "https://images.unsplash.com/photo-1483729558449-99ddc60c038c?w=400&h=300&fit=crop",
+    "year": 1931,
+    "description": "A colossal statue of Jesus Christ overlooking Rio",
+    "facts": "38 meters tall, Art Deco style, one of the New Seven Wonders"
+  },
+  {
+    "id": 6,
+    "name": "Colosseum",
+    "location": "Rome, Italy",
+    "image": "https://images.unsplash.com/photo-1552832230-11a088401fac?w=400&h=300&fit=crop",
+    "year": 80,
+    "description": "An ancient Roman amphitheater in the center of Rome",
+    "facts": "Held 50,000 spectators, built with travertine stone"
+  },
+  {
+    "id": 7,
+    "name": "Big Ben",
+    "location": "London, England",
+    "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=400&h=300&fit=crop",
+    "year": 1859,
+    "description": "The great bell inside the clock tower at Palace of Westminster",
+    "facts": "Actually the name of the bell, not the tower (Elizabeth Tower)"
+  },
+  {
+    "id": 8,
+    "name": "Leaning Tower of Pisa",
+    "location": "Pisa, Italy",
+    "image": "https://images.unsplash.com/photo-1539208852685-1c07e5f2a2e7?w=400&h=300&fit=crop",
+    "year": 1372,
+    "description": "A freestanding bell tower famous for its unintended tilt",
+    "facts": "Tilts due to soft ground on one side, 56 meters tall"
+  },
+  {
+    "id": 9,
+    "name": "Pyramids of Giza",
+    "location": "Cairo, Egypt",
+    "image": "https://images.unsplash.com/photo-1570532860372-06ff06ab0038?w=400&h=300&fit=crop",
+    "year": -2589,
+    "description": "Ancient monumental tombs built for pharaohs",
+    "facts": "Great Pyramid over 4,500 years old, originally 147 meters tall"
+  },
+  {
+    "id": 10,
+    "name": "Statue of Unity",
+    "location": "Gujarat, India",
+    "image": "https://images.unsplash.com/photo-1565427666747-69f6646db940?w=400&h=300&fit=crop",
+    "year": 2018,
+    "description": "The world's tallest statue dedicated to freedom fighter Sardar Vallabhbhai Patel",
+    "facts": "182 meters tall, surpassing Statue of Liberty"
+  }
+]
